@@ -80,10 +80,10 @@
 /* Variables dark theme */
 body.dark-theme {
     /* Typeface */
-    --title-text: hsl(0, 0%, 80%);
-    --subtitle-text: hsl(0, 0%, 72%);
-    --light-text: hsl(0, 0%, 60%);
-    --lighter-text: hsl(0, 0%, 50%);
+    --title-text: hsl(0, 0%, 85%);
+    --subtitle-text: hsl(0, 0%, 75%);
+    --light-text: hsl(0, 0%, 65%);
+    --lighter-text: hsl(0, 0%, 55%);
 
     /* Background */
     --main-bg: #171717;
@@ -268,7 +268,7 @@ img {
     flex-direction: column;
     align-items: center;
     font-size: var(--normal-font-size);
-    color: rgb(75, 75, 75);
+    color: var(--light-text);
     font-weight: var(--medium-font-weight);
 }
 
